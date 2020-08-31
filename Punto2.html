@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Ejercicio Maqeutado</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #Footer {
+        background-color: rgb(82, 51, 51);
+        height: 100%;
+        width: 100%;
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+      }
+      #LeftMenu {
+        background-color: rgb(250, 209, 26);
+
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-size: large;
+        font-weight: bolder;
+      }
+      #TopMenu {
+        background-color: rgb(70, 59, 49);
+
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-size: large;
+        font-weight: bolder;
+      }
+      #Content {
+        background-color: rgb(255, 255, 255);
+
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-size: medium;
+        font-weight: bolder;
+      }
+      #p1 {
+        background-color: rgb(209, 86, 86);
+
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-size: medium;
+        font-weight: bolder;
+      }
+      #p2 {
+        background-color: rgb(111, 126, 255);
+
+        width: 100%;
+        color: rgb(0, 0, 0);
+        font-size: medium;
+        font-weight: bolder;
+      }
+      footer {
+        background-color: rgb(82, 51, 51);
+
+        width: 100%;
+        color: white;
+        font-size: large;
+        font-weight: bolder;
+      }
+      .main {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="Footer" class="container-fluid text-center">
+        <div class="col-12">
+          <br />
+          <br />
+          <p class="text-center">Banner</p>
+          <br />
+          <br />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid main">
+        <div class="row col-12 main">
+          <div
+            id="LeftMenu"
+            class="container-fluid d-none d-sm-none d-md-block col-md-2 col-lg-2"
+          >
+            <p>Left Menu</p>
+          </div>
+
+          <div id="TopMenu" class="col-sm-12 col-md-10 col-lg-10 text-center">
+            <p>Top Menu</p>
+            <div class="row text-center">
+              <div id="Content" class="col-ms-12 col-lg-6 col-xl-6 text-center">
+                <br />
+                <br />
+                <p class="display-4">Main content A</p>
+                <br />
+                <br />
+              </div>
+              <div id="Content" class="col-ms-12 col-lg-6 col-xl-6 text-center">
+                <br />
+                <br />
+                <p class="display-4">Main content b</p>
+                <br />
+                <br />
+              </div>
+              <div
+                id="Content"
+                class="col-lg-12 col-xl-12 text-center container-fluid"
+              >
+                <div class="row text-center">
+                  <div
+                    id="p1"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 1</p>
+                  </div>
+                  <div
+                    id="p2"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 2</p>
+                  </div>
+                  <div
+                    id="p1"
+                    class="col-sm-6 col-md-4 col-lg-4 col-xl-4 text-center"
+                  >
+                    <p>Photo 3</p>
+                  </div>
+                  <div
+                    id="p2"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 4</p>
+                  </div>
+                  <div
+                    id="p1"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div id="Content" class="col-lg-12 col-xl-12 text-center">
+                <br />
+                <br />
+                <p class="display-4">Main content C</p>
+                <br />
+                <br />
+              </div>
+              <div
+                id="Content"
+                class="col-lg-12 col-xl-12 text-center container-fluid"
+              >
+                <div class="row text-center">
+                  <div
+                    id="p1"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 1</p>
+                  </div>
+                  <div
+                    id="p2"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 2</p>
+                  </div>
+                  <div
+                    id="p1"
+                    class="col-sm-6 col-md-4 col-lg-4 col-xl-4 text-center"
+                  >
+                    <p>Photo 3</p>
+                  </div>
+                  <div
+                    id="p2"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 4</p>
+                  </div>
+                  <div
+                    id="p1"
+                    class="col-sm-6 col-md-4 col-lg-2 col-xl-2 text-center"
+                  >
+                    <p>Photo 5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid text-center">
+        <div class="col-12">
+          <p class="text-center">Footer</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
